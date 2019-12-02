@@ -1,0 +1,85 @@
+$primary-color: #ffff;
+$secondary-color: #121212;
+
+body,
+html {
+  background: $primary-color;
+  height: 100%;
+  font-family: "Sulphur Point", sans-serif;
+  margin: 0px;
+}
+
+.hero {
+  height: 50%;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/dist/img/hero.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+  &-text {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+
+    h1 {
+      font-size: 3rem;
+    }
+
+    .get-started {
+      height: 60px;
+      width: 180px;
+      font-size: 1rem;
+      background-color: $secondary-color;
+      color: $primary-color;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      opacity: 0.8;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+}
+
+.step {
+  text-align: center;
+  font-size: 1.5rem;
+  color: $primary-color;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/dist/img/steps.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  img {
+    height: 80px;
+    width: 80px;
+    padding-bottom: 10px;
+  }
+
+  &1,
+  &2,
+  &3,
+  &4 {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+  }
+
+  &1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    overflow: hidden;
+    border-top: 2px solid white;
+  }
+
+  &3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    overflow: hidden;
+  }
+}

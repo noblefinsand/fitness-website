@@ -1,0 +1,57 @@
+body,
+html {
+  background: #ffff;
+  height: 100%;
+  font-family: "Sulphur Point", sans-serif;
+  margin: 0px; }
+
+.hero {
+  height: 50%;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/dist/img/hero.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; }
+  .hero-text {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; }
+    .hero-text h1 {
+      font-size: 3rem; }
+    .hero-text .get-started {
+      height: 60px;
+      width: 180px;
+      font-size: 1rem;
+      background-color: #121212;
+      color: #ffff;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      opacity: 0.8; }
+      .hero-text .get-started:hover {
+        opacity: 1; }
+
+.step {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #ffff;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/dist/img/steps.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .step img {
+    height: 80px;
+    width: 80px;
+    padding-bottom: 10px; }
+  .step1, .step2, .step3, .step4 {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white; }
+  .step1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    overflow: hidden;
+    border-top: 2px solid white; }
+  .step3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    overflow: hidden; }
