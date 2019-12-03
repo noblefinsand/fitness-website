@@ -3,7 +3,8 @@ html {
   background: #ffff;
   height: 100%;
   font-family: "Sulphur Point", sans-serif;
-  margin: 0px; }
+  margin: 0px;
+  scroll-behavior: smooth; }
 
 .hero {
   height: 50%;
@@ -55,3 +56,13 @@ html {
   .step3 {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
     overflow: hidden; }
+
+#main-footer {
+  text-align: center;
+  background-color: #121212;
+  padding: 2rem;
+  color: #ffff; }
+  #main-footer .scroll-icon a {
+    color: #ffff;
+    outline: none;
+    text-decoration: none; }
