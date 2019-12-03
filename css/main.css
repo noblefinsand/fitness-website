@@ -23,7 +23,7 @@ main {
 .hero {
   height: 50%;
   width: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/dist/img/hero.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/hero.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -53,7 +53,7 @@ main {
   text-align: center;
   font-size: 1.5rem;
   color: #ffff;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/dist/img/steps.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/steps.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
