@@ -1,10 +1,24 @@
 body,
 html {
   background: #ffff;
-  height: 100%;
+  height: 100vh;
   font-family: "Sulphur Point", sans-serif;
   margin: 0px;
   scroll-behavior: smooth; }
+
+body#contact {
+  background: #121212;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/dist/img/contact.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; }
+
+main {
+  min-height: 100%;
+  overflow: auto; }
 
 .hero {
   height: 50%;
@@ -60,14 +74,12 @@ html {
 
 .bg-modal {
   width: 100%;
-  height: 100vh;
-  background-color: rgba(0, 0, 0, 0.7);
+  height: 100%;
   position: absolute;
   top: 0;
   display: flex;
   justify-content: center;
-  align-items: center;
-  display: none; }
+  align-items: center; }
   .bg-modal .modal-content {
     width: 500px;
     height: 300px;
@@ -82,10 +94,15 @@ html {
       display: block;
       margin: 15px auto; }
     .bg-modal .modal-content button {
-      width: 100px;
-      height: 35px;
+      width: 150px;
+      height: 40px;
       font-size: 1rem;
-      cursor: pointer; }
+      cursor: pointer;
+      background-color: #121212;
+      color: #ffff;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+      .bg-modal .modal-content button:hover {
+        opacity: 0.8; }
     .bg-modal .modal-content .close {
       position: absolute;
       top: 0;
@@ -103,3 +120,12 @@ html {
     color: #ffff;
     outline: none;
     text-decoration: none; }
+
+@media screen and (max-width: 768px) {
+  .hero h1 {
+    font-size: 2rem; }
+  .step {
+    font-size: 1rem; }
+  .modal-content {
+    margin: 15px;
+    font-size: 0.8rem; } }

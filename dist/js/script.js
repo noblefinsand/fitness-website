@@ -1,7 +1,3 @@
-document.getElementById("contact").addEventListener("click", function() {
-  document.querySelector(".bg-modal").style.display = "flex";
-});
-
-document.querySelector(".close").addEventListener("click", function() {
-  document.querySelector(".bg-modal").style.display = "none";
+document.getElementById("contact-us").addEventListener("click", function() {
+  location.href = "contact.html";
 });
