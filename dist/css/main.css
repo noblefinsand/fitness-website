@@ -16,9 +16,8 @@ body#contact {
   background-size: cover;
   position: relative; }
 
-main {
-  min-height: 100%;
-  overflow: auto; }
+main#contact-main {
+  min-height: 100%; }
 
 .hero {
   height: 50%;
@@ -116,7 +115,7 @@ main {
   background-color: #121212;
   padding: 2rem;
   color: #ffff; }
-  #main-footer .scroll-icon a {
+  #main-footer a {
     color: #ffff;
     outline: none;
     text-decoration: none; }

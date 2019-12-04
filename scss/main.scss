@@ -22,9 +22,8 @@ body#contact {
   position: relative;
 }
 
-main {
+main#contact-main {
   min-height: 100%;
-  overflow: auto;
 }
 
 .hero {
@@ -161,7 +160,7 @@ main {
   padding: 2rem;
   color: $primary-color;
 
-  .scroll-icon a {
+  a {
     color: $primary-color;
     outline: none;
     text-decoration: none;
